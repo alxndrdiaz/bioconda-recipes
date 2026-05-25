@@ -10,7 +10,6 @@ package:
 build:
   number: 0
   skip: True # [osx]
-  binary_relocation: False
 
 source:
   url: https://github.com/JuliaPhylo/PhyloNetworks.jl/archive/refs/tags/v{{ version }}.tar.gz
