@@ -17,7 +17,6 @@ source:
   
 requirements:
   build:
-    - {{ compiler('c') }}
     - julia >={{ min_julia_version }}
   host:
     - julia >={{ min_julia_version }}
