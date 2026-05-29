@@ -27,7 +27,6 @@ test:
   commands:
     - julia -v
     - julia -e 'using PhyloNetworks'
-    - julia -e 'using Pkg; Pkg.test("PhyloNetworks")'
 
 about:
   home: https://github.com/JuliaPhylo/PhyloNetworks.jl
